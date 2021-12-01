@@ -10,13 +10,13 @@ import UIKit
 class Cell: UITableViewCell {
 
     @IBOutlet weak var nameLabel: UILabel!
-    @IBOutlet weak var surnameLabel: UILabel!
     @IBOutlet weak var birthdayLabel: UILabel!
     @IBOutlet weak var emailLabel: UILabel!
     @IBOutlet weak var numberLabel: UILabel!
     @IBOutlet weak var noteLabel: UILabel!
     override func awakeFromNib() {
         super.awakeFromNib()
+       
         // Initialization code
     }
 
@@ -25,5 +25,7 @@ class Cell: UITableViewCell {
 
         // Configure the view for the selected state
     }
+    
+    
 
 }

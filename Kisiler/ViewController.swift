@@ -20,6 +20,7 @@ import CoreData
 
 class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSource, UITextFieldDelegate {
     
+
     @IBOutlet weak var tableView: UITableView!
     @IBOutlet weak var searchText: UITextField!
     var realArray: [NameModel] = []
